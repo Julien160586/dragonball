@@ -1,0 +1,40 @@
+.formulaire {
+    background: linear-gradient( 90deg, rgb(249, 112, 75), rgb(185, 54, 2));
+    border: black 3px solid;
+    border-radius: 25px;
+    padding: 30px;
+}
+.followus {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(232, 211, 211);
+    border: rgb(19, 9, 9) 1.5px solid;
+    border-radius: 15px;
+    
+}
+
+.followteamz {
+    border: rgb(70, 70, 197) 3.5px solid;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(199, 91%, 59%);
+}
+
+.web-improve {
+    display: block;
+    background-color: rgb(232, 211, 211);
+    border: rgb(19, 9, 9) 1.5px solid;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.rejoinsnousdbz {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 2px 10px yellow;
+    padding: 2px;
+    margin-top: 15px;
+}
