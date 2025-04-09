@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient( 90deg, rgb(249, 112, 75), rgb(147, 20, 0));
+}
+
+header {
+   
+    background-image: url(images/dbzk_banner_final.jpg);
+    height: 17em;
+    background-size: cover;
+    background-position: center;
+    border: solid black 2px;
+    border-radius: 2%;
+    position: sticky;
+    top: 0;
+}
+
+.title {
+    padding-top: 25%;
+    display: block;
+    width: 50%;
+    margin: auto;
+    max-width: 50%;
+    min-width: 400px;
+
+}
+
+.nav-page-accueil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient( 90deg, rgb(249, 112, 75), rgb(185, 54, 2));
+    height: 2em;
+    align-items: center;
+    border-top: solid 1.5px;
+    border-bottom: solid 1.5px;
+    border-right: solid 1.5px;
+    box-shadow: 2.5px 2.5px 7px 0.2px;
+}
+
+a {
+    text-decoration: none; 
+    color: black;  
+}
+
+a:active {
+    color: blueviolet;
+}
+
+nav {
+    position: sticky;
+    top: 31%;
+}
+
+.nav:hover {
+    transition-property: transform;
+    transition-duration: 500ms;
+    transform: scale(1.15);
+}
+
+.grid-accueil {
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 200px;
+    gap: 8%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.goldcard {
+    height: 150%;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.dbzlegendstreaming {
+    font-size: 1.2rem;
+    height: 100px;
+    margin: auto;
+    grid-row: 2;
+    padding-bottom: 50px;
+}
+
+
+.grid-accueil img {
+    height: 100%;
+    width: 90%;
+    border-right: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    box-shadow: 5px 2px 10px yellow;
+    padding: 3px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: darkgoldenrod 2px solid;
+    text-shadow: 0px 2px 4px yellow;
+    text-decoration:overline;
+    
+}
+
+.brolyoav {
+    color: lightgoldenrodyellow;
+}
+
+.brolyoavimg {
+    height: 550px;
+    grid-column: 2;
+    border-right: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    box-shadow: 5px 2px 10px yellow;
+}
+
+.brolyoavtext {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.gridoavbroly {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    padding: 3px;
+    height: 100%;
+    width: 90%;
+    margin: 15px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 200px;
+    gap: 50px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
